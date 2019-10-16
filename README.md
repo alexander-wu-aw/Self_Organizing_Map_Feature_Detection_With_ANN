@@ -4,3 +4,5 @@ A self organizing map that uses customer data to identify fraudulent customers. 
 Data is obtained containing customers that applied for a credit card. Customers are represented with a customer ID, 14 other features, and finally a class indicating wether or not they have been approved yet for a credit card. The data is preprocessed and is used to train a 10x10 self organizing map. Neurons that are furthest away from other neurons represent outliers and therefore fraudulent behabiour. All customers that have any of those neurons as their winning neuron are labelled as fradulent.
 
 Using our new dataset, which includes everything as before, with an additional class of if the customer is fradulent or not fradulent, a vanilla neural netword is trained to learn the characteristics that make a customer display fradulent or nonfraudulent behaviour.
+
+Project was built as part of the Deep Learning A-Z course on [Udemy](https://www.udemy.com/course/deeplearning/)
